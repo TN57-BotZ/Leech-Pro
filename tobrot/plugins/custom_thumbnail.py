@@ -38,7 +38,7 @@ async def save_thumb_nail(client, message):
         # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
         os.remove(downloaded_file_name)
         await ismgs.edit(
-            "<b>🎆 Custom video / file thumbnail saved.</b>\n"
+            "<b>🎆 Custom file thumbnail saved.</b>\n"
             + "<b>This image will be used in the upload, till /clearthumb</b>."
         )
     else:
